@@ -25,23 +25,23 @@ An elegant, autonomous build and version management tool for Unity Editor. Stop 
 Access the tool via Unity's top menu: **`Tools > Auto Build Manager`**.
 
 ```
-Geliştirici Değişiklik Notlarını Girer
+Developer Enters Changelog Notes
          │
          ▼
-[Derlemeyi Başlat] Butonuna Tıklanır
+Clicks [Start Build] Button
          │
  ┌───────┴─────────────────────────────────────────┐
- │ Arka Planda Çalışan Otomatik Süreçler:          │
+ │ Automatic Background Processes:                 │
  │                                                 │
- │  1. Versiyonu Günceller (Örn: v1.0.1 -> v1.0.2) │
- │  2. Özel İsme Göre Çıktı Klasörünü Yaratır      │
- │  3. Unity Derleme İşlemini (Build) Yürütür      │
- │  4. İç JSON Geçmişini (Build Log) Günceller     │
- │  5. Çıktı Klasörüne Changelog.md'yi Yazar       │
+ │  1. Increments Version (e.g. v1.0.1 -> v1.0.2)  │
+ │  2. Creates Output Folder with Custom Name      │
+ │  3. Executes Unity Build Pipeline               │
+ │  4. Updates Internal JSON Build History         │
+ │  5. Writes Changelog.md in Output Folder        │
  └───────┬─────────────────────────────────────────┘
          │
          ▼
-Hedef Klasör Gezginde Açılır (Reveal)
+Target Folder is Opened in Explorer (Reveal)
 ```
 
 ---
@@ -82,11 +82,11 @@ Located in your editor files, keeping record of all past builds:
 ### 2. Output Changelog (`Changelog.md`)
 Generated in the executable directory:
 ```markdown
-## Sürüm: v1.2.4
-**Tarih:** 07 June 2026
+## Version: v1.2.4
+**Date:** 07 June 2026
 **Platform:** StandaloneWindows64
 
-### Yenilikler ve Değişiklikler:
+### Changes & New Features:
 - Fixed multiplayer synchronization issues.
 - Added new visual effects to the main lobby.
 ```
