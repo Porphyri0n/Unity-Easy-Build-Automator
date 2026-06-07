@@ -1,0 +1,22 @@
+{
+    "builds": [
+        {
+            "timestamp": "2026-06-07T17:55:10",
+            "version": "v0.1.1",
+            "platform": "Windows64",
+            "duration_seconds": 51.5,
+            "build_size_mb": 94.8,
+            "changelog": "hehehhehe",
+            "status": "Success"
+        },
+        {
+            "timestamp": "2026-06-07T17:59:45",
+            "version": "v0.1.2",
+            "platform": "Windows64",
+            "duration_seconds": 4.4,
+            "build_size_mb": 94.8,
+            "changelog": "",
+            "status": "Success"
+        }
+    ]
+}
